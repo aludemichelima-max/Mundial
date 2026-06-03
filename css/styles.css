@@ -153,7 +153,13 @@
  
  
  /* ESTADIO */
- 
+ #estadosunidosunidos,#estadosunidos tr,#estadosunidos td, #estadosunidos th{
+ border: solid coral 3px;
+ border-collapse: collapse;
+ }
+ #estadosunidos img{
+  width: 200px;
+ }
  
  #intro {
   width: 100%;
@@ -265,7 +271,15 @@
   font-size: 1.5rem;
   font-weight: bold;
  }
- 
+ .multimedia{
+  width: 800px;
+  background-color: #aaa;
+ }
+ .multimedia video{
+  width: 600px;
+ }
+
+
  
  h3 {
   margin-top: 0;
@@ -326,4 +340,3 @@
  
  
  
-  bb  g
