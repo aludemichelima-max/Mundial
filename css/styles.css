@@ -160,7 +160,14 @@
  #estadosunidos img{
   width: 200px;
  }
- 
+ /* Img */
+ #uruguay1930.jpg,#uruguay1930.jpg tr,#uruguay1930.jpg td, #uruguay1930.jpg th{
+  border: solid coral 3px;
+  border-collapse: collapse;
+  }
+  #uruguay1930.jpg img{
+   width: 200px;
+  }
  #intro {
   width: 100%;
   max-width: 900px;
