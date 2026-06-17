@@ -278,6 +278,32 @@
   font-size: 1.5rem;
   font-weight: bold;
  }
+/*campeones******/
+/****** /*Contenedor principal: divide el diseño en dos columnas (continente y paises) */
+.campeones {
+  display: grid;
+grid-template-columns: lfr 3fr; /* 25% para continente, 75% para paises */
+border: 2px solid #000;
+width:  100px;
+}
+/*Columna izquierda: continente ocupara todo el alto disponible automaticamente*/
+.continente {
+  border-right: 2px solid #00000; 
+  padding: 15px 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+/*columna derecha: se convierte en otro grid para organizar el contenido interno*/
+.paises{
+  display: grid;
+  grid-template-columns: ;
+
+
+
+
+
+
+
  .multimedia{
   width: 800px;
   background-color: #aaa;
