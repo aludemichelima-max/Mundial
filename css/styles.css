@@ -293,10 +293,40 @@ width:  100px;
   font-weight: bold;
   font-size: 14px;
 }
-/*columna derecha: se convierte en otro grid para organizar el contenido interno*/
-.paises{
+/* Columna Derecha: Se convierte en otro Grid para organizar el contenido interno */
+.paises {
   display: grid;
-  grid-template-columns: ;
+  grid-template-columns: 1fr 1fr; /*Divido en 2 columnas para las fotos */
+}
+/* El título del País ocupa las dos columnas */
+.pais {
+  grid-column: span 2;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  border-bottom: 2px solid #000;
+}
+
+/* Las fotos se acomodan una al lado de la otra automaticamente (50% cada una) */
+.foto {
+  min-height: 120px; /*Espacio para la imagen */
+  padding: 35px 10px 10px 10px;
+  font-size: 11px;
+  border-bottom: 2px solid #000;
+}
+
+/* Borde vertical divisor solo en la primera foto */
+.foto:nth_of_type(odd) {
+  border-right: 2px solid #000;
+}
+
+/* La reseña se salta al fondo ocupando las dos columnas */
+.resenia {
+  grid-column: span 2;
+  padding: 10px;
+  min-height: 80px;
+  font-size: 11px;
+}
 
 
 
